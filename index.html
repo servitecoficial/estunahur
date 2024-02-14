@@ -5,85 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descargas UNAHUR</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff; /* Azul pastel */
-            color: #006400; /* Verde pastel */
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #006400; /* Verde pastel */
-            color: #f0f8ff; /* Azul pastel */
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            margin-bottom: 20px;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-
-        .app {
-            background-color: #f0f8ff; /* Azul pastel */
-            border: 2px solid #006400; /* Verde pastel */
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .app a {
-            color: #006400; /* Verde pastel */
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .app a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            background-color: #006400; /* Verde pastel */
-            color: #f0f8ff; /* Azul pastel */
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>ESTUNAHUR.APP</h1> <img src="img/logo.jpg" alt="" height="250">
+        <h1>ESTUNAHUR.APP</h1>
+        <img src="img/logo.jpg" alt="UNAHUR Logo" class="logo">
     </header>
 
- <center>   <div class="container">
-    <div class="app">
-        <h2>App de Estudiantes</h2>
-        <p>Descarga la aplicación móvil para estudiantes de la UNAHUR.</p>
-        <a href="arch/Unahur_app.apk" download>Descargar app</a>
-
+    <div class="container">
+        <div class="app">
+            <h2>App de Estudiantes</h2>
+            <p>Descarga la aplicación móvil para estudiantes de la UNAHUR.</p>
+            <button onclick="downloadApp()">Descargar app</button><br>
+            <p class="description">App desarrollada para mejorar el manejo y accesibilidad de las páginas de la
+                Universidad de Hurlingam. Desde esta app vas a poder ingresar al campus y al SIU, entre muchas cosas más
+                que se van a ir agregando para mejorar la experiencia con ustedes.</p>
+        </div>
+<br>
     </div>
-    <p>App desarrollada para mejorar el manejo y accesibilidad de las paginas de la Universidad de Hurlingam <br>
-    Desde esta app vas a poder ingresar al campus y al SIU, entre muchas cosas mas que se van a ir agregando para mejorar la experiencia con ustedes. <br>
-</p></center>
-
-       
-        <!-- Agrega más aplicaciones según sea necesario -->
-
-    </div>
-
+<br><br>
     <footer>
-        <p>&copy; 2024 Alan <a href="https://api.whatsapp.com/send/?phone=541136042145&text=Vengo+desde+EstUnahur&type=phone_number&app_absent=0">Acosta/Servitec</a></p>
+        <p>&copy; 2024 <a
+                href="https://api.whatsapp.com/send/?phone=541136042145&text=Vengo+desde+EstUnahur&type=phone_number&app_absent=0">Alan
+                Acosta/Servitec</a></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
