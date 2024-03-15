@@ -1,3 +1,3 @@
 function downloadApp() {
-    window.location.href = "arch/EstUnahur_V1.1.apk";
+    window.location.href = "arch/EsUnahur_1.2.apk";
 }
