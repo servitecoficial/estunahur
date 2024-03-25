@@ -1,7 +1,7 @@
 :root {
   --primColor: #dcdcdc;
   --secoColor: #070000;
-  --cornerRad: 4px;
+  --cornerRad: 12px;
 }
 body {
   background-color: var(--primColor);
@@ -115,3 +115,9 @@ details[open]::before {
     opacity: 0;
   }
 }
+
+img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
